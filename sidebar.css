@@ -1,0 +1,57 @@
+body {
+  padding-top: 70px;
+}
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 70px;
+  left: 0;
+  bottom: 0px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  z-index: 300;
+  cursor: pointer;
+}
+.allh,
+.alle,
+.alls,
+.allo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 74px;
+}
+.allh:hover,
+.alle:hover,
+.alls:hover,
+.allo:hover {
+  background-color: lightgray;
+}
+
+.homei {
+  width: 24px;
+}
+.texthome {
+  font-size: 10px;
+}
+.explorei {
+  width: 24px;
+}
+.textexplore {
+  font-size: 10px;
+}
+.subscriptionsi {
+  width: 24px;
+}
+.textsubscriptions {
+  font-size: 10px;
+}
+.originalsi {
+  width: 24px;
+}
+.textoriginals {
+  font-size: 10px;
+}
